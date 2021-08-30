@@ -1,8 +1,8 @@
 import React,{FC} from 'react';
-import {IUsers} from '../types/types';
+import {IUser} from '../types/types';
 
 export interface UserItemProps {
-    user:IUsers
+    user:IUser
 }
  
 const UserItem: React.FC<UserItemProps> = ({user}) => {
